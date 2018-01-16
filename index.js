@@ -9,3 +9,9 @@ function produceDrivingRange(max) {
     }
   }
 }
+
+function produceTipCalculator(tip){
+  return function calcTip(bill) {
+    return bill * tip;
+  }
+}
