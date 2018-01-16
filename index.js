@@ -5,7 +5,7 @@ function produceDrivingRange(max) {
       return `within range by ${max - dist}`;
     }
     else {
-      return `Out of range by ${dist - max}`;
+      return `${dist - max} blocks out of range`;
     }
   }
 }
